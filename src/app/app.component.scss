@@ -57,14 +57,10 @@
   &__logo-badge {
     display: flex;
     align-items: center;
-    background: var(--white);
-    border-radius: 10px;
-    padding: 0.35rem 0.75rem;
-    box-shadow: 0 0 18px rgba(227, 6, 19, 0.25);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: transform 0.3s ease;
 
     img {
-      height: 2rem;
+      height: 3.2rem;
       display: block;
     }
   }
